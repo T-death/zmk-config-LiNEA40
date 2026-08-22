@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -156,7 +156,7 @@
 
         MARK {
             bindings = <
-&kp ESCAPE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR      &kp PERCENT                           &kp AMPERSAND   &kp HASH          &kp DOUBLE_QUOTES  &kp SEMICOLON         &kp LBKT
+&kp ESCAPE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR      &kp PERCENT                           &kp AMPERSAND   &kp HASH          &kp DOUBLE_QUOTES  &kp SEMICOLON         &br
 &kp TAB         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTERISK    &kp PLUS                              &kp KP_EQUAL    &kp LS(QUESTION)  &kp SINGLE_QUOTE   &kp COLON             &kp CARET
 &kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN     &kp KP_SUBTRACT                       &kp UNDERSCORE  &kp EXCL          &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)  &kp LS(SLASH)
 &kp TILDE       &kp LEFT_ALT          &kp LCMD               &kp LEFT_SHIFT  &kp SPACE        &kp TILDE    &trans  &trans                            &trans             &trans                &kp LS(BACKSLASH)

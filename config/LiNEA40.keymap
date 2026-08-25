@@ -62,7 +62,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -159,10 +159,10 @@
 
         CURSOR {
             bindings = <
-&kp COLON   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                            &kp K_MUTE    &trans  &trans  &trans  &trans
-&kp LCTRL   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA                               &kp C_VOL_UP  &trans  &trans  &trans  &trans
-&kp LSHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                              &kp C_VOL_DN  &trans  &trans  &trans  &trans
-&mo 6       &kp LEFT_ALT  &kp LCMD      &trans        &kp SPACE     &kp UNDERSCORE    &trans  &trans                &trans  &trans  &trans
+&kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON                             &kp K_MUTE    &trans  &trans  &trans  &trans
+&kp LCTRL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA                             &kp C_VOL_UP  &trans  &trans  &trans  &trans
+&kp LSHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                            &kp C_VOL_DN  &trans  &trans  &trans  &trans
+&mo 6         &kp LEFT_ALT  &kp LCMD      &trans        &kp SPACE   &kp UNDERSCORE    &trans  &trans                &trans  &trans  &trans
             >;
         };
 

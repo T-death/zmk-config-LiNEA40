@@ -143,7 +143,7 @@
 &kp SPACE         &kp LEFT_ALT  &kp LCMD  &trans  &lt 5 LANG2  &lt 8 SPACE    &lt 2 LANG1  &kp ENTER         &kp RCMD             &kp RIGHT_ALT      &kp BACKSPACE
             >;
 
-            sensor-bindings = <&mouse_scrl MOVE_Y(3) MOVE_Y(-3)>;
+            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
         MOUSE {
